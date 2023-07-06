@@ -186,11 +186,11 @@
         justify-content: center;
         flex-direction: row;
         justify-content: center;
-        width: 800px;
-        margin-left: 25%;
-        margin-top: 75px
+        width: 100px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 75px;
     }
-    
     .fotos div {
         display: flex;
         justify-content: center;
@@ -213,5 +213,79 @@
     .menucae {
         background-color: black;
     }
+    .fototama {
+        margin-top: 25px;
     
-
+    }
+    .itemcarrusel {
+        display: flex;
+        justify-content: center;
+    }
+    .navar {
+        color: aliceblue;
+    }
+    .inicio {
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-image: url(../img/fonfooferreteria.jpg)
+        
+    }
+    .division {
+        background-color: black;
+        margin-top: 55px;
+        height: 55px;
+        width: 400px;
+    }
+    .nombresinicio {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        background-color: black
+    }
+    .imagenesinicio {
+        height: 300px;
+        margin-top: 25px;
+        flex-wrap: wrap;
+        margin-top: 35px;
+        margin-left: 5px;
+        display: flex;
+        justify-content: center;
+        margin-top: 205px;
+        
+    }  
+    .fotosinicio {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 26px;
+    }
+    .contenedoresinicio {
+        display: flex;
+        justify-content: center;
+    }
+    .fondopagina {
+        height: 100vh;
+        margin-top: 25px;
+        width: 100%;
+        
+        margin-bottom: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../img/pagina\ en\ mantenimiento.png)
+    }
+    .nombresinicioo {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .mantenimiento div {
+        margin-top: 55px;
+    }
