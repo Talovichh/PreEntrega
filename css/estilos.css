@@ -218,6 +218,18 @@ body {
   padding: 26px;
 }
 
-/*reponsive*/
+.nav-link {
+  color: aliceblue;
+}
+.dropdown-item {
+  color: aliceblue;
+}
+.dropdown-menu  {
+  color: black;
+}
+.menucae {
+  background-color: black;
+}
+
 
 /*# sourceMappingURL=estilos.css.map */
