@@ -134,10 +134,10 @@
   
   .formulario {
     display: flex;
+    justify-content: flex-end;
     margin-top: 0px;
     color: white;
     margin-left: 45%;
-    position: absolute;
   }
   
   .boton {
@@ -310,3 +310,19 @@
   .mantenimiento div {
     margin-top: 55px;
   }
+  .itemcarrusel {
+    display: flex;
+    justify-content: center;
+  }
+.carousel-item.active {
+  display: flex;
+  justify-content: center;
+}
+.itemdentrocarru {
+  display: flex;
+  justify-content: center;
+}
+.carousel-item active {
+display: flex;
+justify-content: center;
+}
