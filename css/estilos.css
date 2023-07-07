@@ -222,23 +222,28 @@ body {
 .nav-link {
   color: aliceblue;
 }
+
 .dropdown-item {
   color: aliceblue;
 }
-.dropdown-menu  {
+
+.dropdown-menu {
   color: black;
 }
+
 .menucae {
   background-color: black;
 }
+
 .fototama {
   margin-top: 25px;
-
 }
+
 .itemcarrusel {
   display: flex;
   justify-content: center;
 }
+
 .navar {
   color: aliceblue;
 }
@@ -250,23 +255,25 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../img/fonfooferreteria.jpg)
-  
+  background-image: url(../img/fonfooferreteria.jpg);
 }
+
 .division {
   background-color: black;
   margin-top: 55px;
   height: 55px;
   width: 400px;
 }
+
 .nombresinicio {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: aliceblue;
   display: flex;
   justify-content: center;
   font-size: 25px;
-  background-color: black
+  background-color: black;
 }
+
 .imagenesinicio {
   height: 300px;
   margin-top: 25px;
@@ -276,8 +283,8 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 205px;
-  
-}  
+}
+
 .fotosinicio {
   margin-top: 20px;
   display: flex;
@@ -285,29 +292,33 @@ body {
   flex-direction: column;
   padding: 26px;
 }
+
 .contenedoresinicio {
   display: flex;
   justify-content: center;
 }
+
 .fondopagina {
   height: 100vh;
   margin-top: 25px;
   width: 100%;
-  
   margin-bottom: 30px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../img/pagina\ en\ mantenimiento.png)
+  background-image: url(../img/pagina\ en\ mantenimiento.png);
 }
+
 .nombresinicioo {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: aliceblue;
   display: flex;
   justify-content: center;
   font-size: 25px;
   margin-top: 50px;
 }
+
 .mantenimiento div {
   margin-top: 55px;
 }
+
 /*# sourceMappingURL=estilos.css.map */
