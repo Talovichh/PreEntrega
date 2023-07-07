@@ -136,8 +136,8 @@ body {
   display: flex;
   margin-top: 0px;
   color: white;
-  margin-left: 45%;
-  position: absolute;
+  margin-left: 30px;
+  margin-top: 25px;
 }
 
 .boton {
@@ -319,6 +319,26 @@ body {
 
 .mantenimiento div {
   margin-top: 55px;
+}
+
+.itemcarrusel {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item.active {
+  display: flex;
+  justify-content: center;
+}
+
+.itemdentrocarru {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item active {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */
