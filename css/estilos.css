@@ -345,4 +345,24 @@ body {
   justify-content: center;
 }
 
+@media (max-width: 500px) {
+  .imagenesinicio {
+    height: 300px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 205px;
+  }
+  .fotosinicio {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 26px;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */
