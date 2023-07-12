@@ -5,6 +5,7 @@
   
 
 
+
   h1 {
     background-color: #F88B0B;
     padding: 30px;
@@ -246,6 +247,10 @@
   }
   
   .Inicio {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100%;
     margin-bottom: 30px;
@@ -253,6 +258,7 @@
     background-size: cover;
     background-position: center;
     background-image: url(../img/fonfooferreteria.jpg)
+    
     
   }
   .division {
@@ -278,6 +284,7 @@
     display: flex;
     justify-content: center;
     margin-top: 205px;
+    
     
   }  
   .fotosinicio {
