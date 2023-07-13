@@ -414,4 +414,8 @@ body {
   animation-timing-function: ease-in;
 }
 
+header {
+  height: 200px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
