@@ -100,8 +100,7 @@
     margin-left: 20%;
     margin-right: 20%;
     color: white;
-    font-size: 150%;
-    font-size: 25px;
+    font-size: 1.5rem;
   }
   
   .ofertas {
@@ -161,7 +160,7 @@
     text-align: center;
     text-decoration: none;
     padding: 5px;
-    font-size: 23px;
+    font-size: 1.5rem;
     color: white;
   }
   
@@ -173,7 +172,7 @@
   .preciosP {
     flex-direction: row;
     color: white;
-    font-size: 22px;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     margin-top: -40px;
@@ -274,7 +273,7 @@
     color: aliceblue;
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 2rem;
     background-color: black
   }
   .imagenesinicio {
@@ -315,7 +314,7 @@
     color: aliceblue;
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 2rem;
     margin-top: 50px;
   }
   .mantenimiento div {
@@ -400,6 +399,7 @@ width: 500px;
     }
   }
   .titulo {
+    overflow: hidden;
     animation-name: animacion;
     animation-iteration-count: infinite;
     animation-duration: 2s;
