@@ -336,6 +336,7 @@
 .carousel-item active {
 display: flex;
 justify-content: center;
+width: 500px;
 }
 
 
@@ -375,6 +376,10 @@ justify-content: center;
 }
 .imagenesmaquinas {
   width: 100%;
+  margin-top: 2%;
+}
+.imagenescarruselnov {
+  width: 60%;
   margin-top: 2%;
 }
 

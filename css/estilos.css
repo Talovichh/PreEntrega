@@ -345,6 +345,7 @@ body {
 .carousel-item active {
   display: flex;
   justify-content: center;
+  width: 500px;
 }
 
 @media (max-width: 500px) {
@@ -381,6 +382,11 @@ body {
 }
 .imagenesmaquinas {
   width: 100%;
+  margin-top: 2%;
+}
+
+.imagenescarruselnov {
+  width: 60%;
   margin-top: 2%;
 }
 
