@@ -72,9 +72,9 @@
   }
   
   footer {
-    background-color: #F88B0B;
-    position: absolute;
-    bottom: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #F88B0B;  
     width: 100%;
     text-align: center;
     padding-bottom: 5em;
@@ -82,10 +82,11 @@
   }
   
   .mail a {
+    display: flex;
+    justify-content: center;
     color: white;
     text-decoration: none;
     text-decoration-color: white;
-    display: inline-block;
     text-align: center;
     margin-top: 1%;
   }
@@ -226,6 +227,7 @@
   
   .nav-link {
     color: aliceblue;
+    
   }
   .dropdown-item {
     color: aliceblue;
@@ -244,10 +246,7 @@
     display: flex;
     justify-content: center;
   }
-  .navar {
-    color: aliceblue;
-  }
-  
+
   .Inicio {
     height: 100%;
     width: 100%;
@@ -402,6 +401,7 @@ width: 500px;
     }
   }
   .titulo {
+
     overflow: hidden;
     animation-name: animacion;
     animation-iteration-count: infinite;
@@ -417,3 +417,14 @@ width: 500px;
     padding: 30px;
     color: white;
   }
+
+header{
+  background-color: #F88B0B;
+  height: 50%;
+}
+.barranav {
+  margin-top: 3%;
+}
+.logo {
+  margin-top: 1%;
+}

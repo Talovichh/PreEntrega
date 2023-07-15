@@ -69,9 +69,9 @@ h2 {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
   background-color: #F88B0B;
-  position: absolute;
-  bottom: auto;
   width: 100%;
   text-align: center;
   padding-bottom: 5em;
@@ -79,10 +79,11 @@ footer {
 }
 
 .mail a {
+  display: flex;
+  justify-content: center;
   color: white;
   text-decoration: none;
   text-decoration-color: white;
-  display: inline-block;
   text-align: center;
   margin-top: 1%;
 }
@@ -244,10 +245,6 @@ body {
 .itemcarrusel {
   display: flex;
   justify-content: center;
-}
-
-.navar {
-  color: aliceblue;
 }
 
 .Inicio {
@@ -426,6 +423,19 @@ iframe {
   background-color: #F88B0B;
   padding: 30px;
   color: white;
+}
+
+header {
+  background-color: #F88B0B;
+  height: 50%;
+}
+
+.barranav {
+  margin-top: 3%;
+}
+
+.logo {
+  margin-top: 1%;
 }
 
 /*# sourceMappingURL=estilos.css.map */
