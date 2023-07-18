@@ -74,6 +74,8 @@
   footer {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
     background-color: #F88B0B;  
     width: 100%;
     text-align: center;
@@ -401,7 +403,6 @@ width: 500px;
     }
   }
   .titulo {
-
     overflow: hidden;
     animation-name: animacion;
     animation-iteration-count: infinite;
@@ -419,6 +420,7 @@ width: 500px;
   }
 
 header{
+  overflow: hidden;
   background-color: #F88B0B;
   height: 50%;
 }
@@ -426,5 +428,6 @@ header{
   margin-top: 3%;
 }
 .logo {
+  overflow: hidden;
   margin-top: 1%;
 }

@@ -71,6 +71,8 @@ h2 {
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
   background-color: #F88B0B;
   width: 100%;
   text-align: center;
@@ -426,6 +428,7 @@ iframe {
 }
 
 header {
+  overflow: hidden;
   background-color: #F88B0B;
   height: 50%;
 }
@@ -435,6 +438,7 @@ header {
 }
 
 .logo {
+  overflow: hidden;
   margin-top: 1%;
 }
 
