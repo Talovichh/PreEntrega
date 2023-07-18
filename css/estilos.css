@@ -18,18 +18,8 @@ h1 {
 }
 
 header {
-  overflow: hidden;
   background-color: #F88B0B;
   height: 50%;
-}
-header nav ul li {
-  display: inline-block;
-}
-header nav {
-  background-color: hsl(0, 0%, 0%);
-  display: block;
-  width: 100%;
-  margin-top: -7px;
 }
 header .titulo {
   display: flex;
@@ -40,20 +30,30 @@ header .logo {
   overflow: hidden;
   margin-top: 1%;
 }
-header .barranav {
-  margin-top: 3%;
+header nav {
+  display: inline-block;
 }
-header .nav-link {
+header nav {
+  background-color: hsl(0, 0%, 0%);
+  display: block;
+  width: 100%;
+  margin-top: -7px;
+}
+header nav .nav-link {
   color: aliceblue;
 }
-header .dropdown-item {
-  color: aliceblue;
-}
-header .dropdown-menu {
+header nav .dropdown-menu {
   color: black;
 }
-header .menucae {
+header nav .dropdown-menu .menucae {
   background-color: black;
+}
+header nav .dropdown-menu .dropdown-item {
+  color: aliceblue;
+}
+
+.barranav {
+  margin-top: 3%;
 }
 
 main {
@@ -66,11 +66,13 @@ main {
   padding-bottom: 15em;
   min-height: 100vh;
 }
-main .contenedoresinicio {
+
+.contenedoresinicio {
   display: flex;
   justify-content: center;
 }
-main .contenedoresinicio .Inicio {
+
+.Inicio {
   height: 100%;
   width: 100%;
   margin-top: 2%;
@@ -117,33 +119,6 @@ h3 {
 h2 {
   color: white;
   text-align: right;
-}
-
-footer {
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  background-color: #F88B0B;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 5em;
-}
-
-.mail a {
-  display: flex;
-  justify-content: center;
-  color: white;
-  text-decoration: none;
-  text-decoration-color: white;
-  text-align: center;
-  margin-top: 1%;
-}
-
-h4 {
-  color: white;
-  display: inline-block;
-  text-align: center;
-  margin-top: 15px;
 }
 
 p {
@@ -436,6 +411,31 @@ iframe {
   background-color: #F88B0B;
   padding: 30px;
   color: white;
+}
+
+footer {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #F88B0B;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5em;
+}
+footer .mail a {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  text-decoration-color: white;
+  text-align: center;
+  margin-top: 1%;
+}
+footer h4 {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin-top: 15px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
