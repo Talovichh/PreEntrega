@@ -64,27 +64,25 @@ main {
   position: relative;
   padding-bottom: 15em;
   min-height: 100vh;
-  .contenedoresinicio {
-    display: flex;
-    justify-content: center;
-    .Inicio {
-      height: 100%;
-      width: 100%;
-      margin-top: 2%;
-      display: flex; 
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 30px;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      background-image: url(../img/fonfooferreteria.jpg)
-      
-      
-    }
-  }
-
+  
+}
+.contenedoresinicio {
+  display: flex;
+  justify-content: center;
+}
+.Inicio {
+  height: 100%;
+  width: 100%;
+  margin-top: 2%;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/fonfooferreteria.jpg)
 }
 
 
