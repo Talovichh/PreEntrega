@@ -308,6 +308,8 @@ p {
 @media (max-width: 500px) {
   .contenedoresinicio {
     flex-direction: column;
+    display: flex;
+    justify-content: center;
   }
   .imagenesinicio {
     height: 300px;
@@ -344,7 +346,7 @@ p {
   }
 }
 .imagenessanitarios {
-  width: 70%;
+  width: 60%;
   margin-top: 5%;
 }
 
@@ -406,6 +408,7 @@ footer .mail a {
   margin-top: 1%;
 }
 footer h4 {
+  font-size: 1.2rem;
   color: white;
   display: inline-block;
   text-align: center;
