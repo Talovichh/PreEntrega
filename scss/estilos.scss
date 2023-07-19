@@ -16,9 +16,13 @@ h1 {
   }
 
 header{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
   background-color: #F88B0B;
   height: 50%;
   .titulo {
+    width: 50%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center
@@ -42,17 +46,19 @@ header{
     margin-top: -7px;
   
     .nav-link {
-      color: aliceblue;
       
+      color: aliceblue;
     }
     .dropdown-menu  {
+      background-color: black;
       color: black;
       .menucae {
         background-color: black;
       
       }
       .dropdown-item {
-        color: aliceblue;
+        background-color: black;
+        color: white;
       }
     
     }
@@ -390,8 +396,8 @@ width: 500px;
 }
 
 .imagenesmaquinas {
-  width: 100%;
-  margin-top: 2%;
+  width:80%;
+  margin-top: 5%;
 }
 .imagenescarruselnov {
   width: 60%;
