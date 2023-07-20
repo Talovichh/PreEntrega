@@ -101,7 +101,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../img/fonfooferreteria.jpg)
+  background-image: url(../img/fonfoo-ferreteria.jpg)
 } 
 
   h3 {
@@ -167,6 +167,7 @@ main {
   }
   
   .maps {
+    width: 80%;
     margin-top: 25px;
     margin-left: 30px;
   }
@@ -435,4 +436,9 @@ width: 500px;
       text-align: center;
       margin-top: 15px;
     }
+  }
+  .mapayform {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
