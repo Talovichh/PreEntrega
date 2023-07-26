@@ -44,9 +44,7 @@ header{
     display: block;
     width: 100%;
     margin-top: -7px;
-  
     .nav-link {
-      
       color: aliceblue;
     }
     .dropdown-menu  {
@@ -234,14 +232,9 @@ main {
     border-radius: 5px;
   }
   
-  .ofertas :hover {
-    transform: scale(1.1);
-    transition: 2s;
-  }
-  
-  .listaGeneral :hover {
-    transform: scale(1.1);
-    transition: 2s;
+  .efectos  :hover{
+transform: scale(1.1);
+transition: 2s
   }
   
   .fotoscarrusel {
@@ -302,7 +295,6 @@ main {
     height: 100vh;
     margin-top: 25px;
     width: 100%;
-    
     margin-bottom: 30px;
     background-repeat: no-repeat;
     background-position: center;
@@ -442,4 +434,8 @@ width: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .menucentro {
+    display: flex;
+    justify-content: center;
   }

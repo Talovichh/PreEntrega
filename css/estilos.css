@@ -220,12 +220,7 @@ button {
   border-radius: 5px;
 }
 
-.ofertas :hover {
-  transform: scale(1.1);
-  transition: 2s;
-}
-
-.listaGeneral :hover {
+.efectos :hover {
   transform: scale(1.1);
   transition: 2s;
 }
@@ -421,6 +416,11 @@ footer h4 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.menucentro {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */
