@@ -56,7 +56,7 @@ header nav .dropdown-menu .dropdown-item {
   color: white;
 }
 
-.flex-center, footer .mail a, .carousel-item active, .itemdentrocarru, .carousel-item.active, .fotosinicio, .itemcarrusel, .fotos div, .fotoscarrusel, .preciosP, .ofertas, .Inicio, header .titulo {
+.flex-center, .carousel-item active, .itemdentrocarru, .carousel-item.active, .fotosinicio, .itemcarrusel, .fotos div, .fotoscarrusel, .preciosP, .ofertas, .Inicio, header .titulo {
   display: flex;
   justify-content: center;
 }
@@ -197,6 +197,7 @@ p {
 }
 
 .preciosP {
+  margin-bottom: 10px;
   flex-direction: row;
   color: white;
   font-size: 1rem;
@@ -211,11 +212,12 @@ p {
   flex-wrap: wrap;
 }
 
-.botones {
-  height: 30px;
-  text-decoration: none;
-  text-align: center;
-  background-color: floralwhite;
+button {
+  color: black;
+  background-color: #F88B0B;
+  padding: 5px;
+  border: 1px solid #F88B0B;
+  border-radius: 5px;
 }
 
 .ofertas :hover {
@@ -343,7 +345,7 @@ p {
     background-color: #F88B0B;
     width: 100%;
     text-align: center;
-    padding-bottom: 5em;
+    padding: 50px;
   }
 }
 .imagenessanitarios {
@@ -398,15 +400,14 @@ footer {
   background-color: #F88B0B;
   width: 100%;
   text-align: center;
-  padding-bottom: 5em;
+  padding: 50px;
 }
-footer .mail a {
+footer .mail {
   font-size: 1.2rem;
   color: white;
-  text-decoration: none;
-  text-decoration-color: white;
+  display: inline-block;
   text-align: center;
-  margin-top: 1%;
+  margin-top: 15px;
 }
 footer h4 {
   font-size: 1.2rem;
