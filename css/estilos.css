@@ -150,6 +150,11 @@ p {
   cursor: pointer;
 }
 
+.efectos :hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+
 .fotos div {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 15px;
@@ -218,11 +223,6 @@ button {
   padding: 5px;
   border: 1px solid #F88B0B;
   border-radius: 5px;
-}
-
-.efectos :hover {
-  transform: scale(1.1);
-  transition: 2s;
 }
 
 .fotoscarrusel {

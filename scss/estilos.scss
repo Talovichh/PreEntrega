@@ -158,6 +158,11 @@ main {
     margin: 15px;
     cursor: pointer;
   }
+  .efectos :hover {
+    transform: scale(1.1);
+    transition: 2s
+
+  }
   
   .fotos div {
     background-color: rgba(255, 255, 255, 0.2);
@@ -232,10 +237,7 @@ main {
     border-radius: 5px;
   }
   
-  .efectos  :hover{
-transform: scale(1.1);
-transition: 2s
-  }
+
   
   .fotoscarrusel {
     @extend .flex-center;
