@@ -184,9 +184,13 @@ main {
   .largoform{
     width: 400px;
   }
-  .boton {
+  input{
+    text-align: center;
+  }
+  .boton {display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 25px;
-    margin-left: 65px;
   }
   
   .productos {
