@@ -443,6 +443,7 @@ label {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: baseline;
 }
 
 .fotonos {
@@ -459,6 +460,27 @@ label {
   width: 300px;
   margin: 15px;
   cursor: pointer;
+}
+
+.fotosacerca div {
+  height: 185px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.equipo {
+  height: 4rem;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  background-color: #332F2E;
+  box-shadow: 10px 10px 10px black;
+  align-items: center;
+}
+
+.titulos {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */
