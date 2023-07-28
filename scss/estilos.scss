@@ -450,5 +450,18 @@ width: 500px;
   .empleados {
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
+  }
+  .fotonos {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  .fotosacerca {
+    padding: 10px;
+    @include flex-center(flex,center);
+    flex-direction: column;
+    width: 300px;
+    margin: 15px;
+    cursor: pointer;
   }

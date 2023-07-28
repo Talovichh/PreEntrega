@@ -442,6 +442,23 @@ label {
 .empleados {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fotonos {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.fotosacerca {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  margin: 15px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=estilos.css.map */
