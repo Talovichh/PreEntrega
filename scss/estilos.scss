@@ -52,7 +52,7 @@ header{
       color: black;
       .menucae {
         background-color: black;
-      
+        
       }
       .dropdown-item {
         background-color: black;
@@ -157,10 +157,6 @@ main {
     width: 300px;
     margin: 15px;
     cursor: pointer;
-    &:hover {
-      transform: scale(1.1);
-      transition: 2s
-    }
   }
   
   .fotos div {
@@ -182,7 +178,7 @@ main {
     margin-top: 25px;
   }
   .largoform{
-    width: 400px;
+    width: 300px;
   }
   input{
     text-align: center;
@@ -264,8 +260,6 @@ main {
   .itemcarrusel {
     @extend .flex-center;
   }
-
-
   .division {
     background-color: black;
     margin-top: 55px;
@@ -342,7 +336,6 @@ width: 500px;
     margin-left: 5px;
     display: flex;
     justify-content: center;
-    margin-top: 205px;
     
   }  
   .fotosinicio {
@@ -420,7 +413,7 @@ width: 500px;
     text-align: center;
     padding: 50px;
     .mail{
-      font-size: 1.2rem;
+      font-size: 1.0rem;
       color: white;
       display: inline-block;
       text-align: center;
@@ -439,6 +432,10 @@ width: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  label {
+    display: flex;
+    justify-content: center;
   }
   .menucentro {
     display: flex;
