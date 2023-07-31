@@ -485,15 +485,55 @@ align-items: center;
   display: flex;
   justify-content: center;
 }
+
+
+
 .grid-container {
-  padding: 70px;
+  margin-top: 50px;
+  padding: 10px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(1, 1fr);
   gap: 20px;
+  justify-items: center; 
 }
+
 .imagenesnove {
   width: 100%;
-  height: 100%;
+  height: 450px;
+  padding: 5px;
+  max-width: 500px;
+  text-align: center;
+}
+.imagenesnove img {
+  width: 100%;
+  height: 450px;
+  padding: 10px;
+}
+.imagenesnove figcaption {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+  .imagenesnove {
+    padding: 10px;
+  }
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .imagenesnove figcaption {
+    font-size: 1rem;
+  }
+}
+.nuevosProductosTexto {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.2rem;
+  max-width: 90%; /* Limitar el ancho del texto */
+  word-wrap: break-word; /* Romper palabras que no caben en una línea */
 }
 
 
