@@ -202,7 +202,7 @@ main {
   .nombresP {
     text-align: center;
     text-decoration: none;
-    padding: 5px;
+    padding: 15px;
     font-size: 1.5rem;
     color: white;
   }
@@ -213,13 +213,12 @@ main {
   }
   
   .preciosP {
+    margin-top: 20px;
     margin-bottom: 10px;
     @extend .flex-center;
     flex-direction: row;
     color: white;
     font-size: 1rem;
-
-    margin-top: -40px;
     text-decoration: none;
   }
   
@@ -535,6 +534,5 @@ align-items: center;
   max-width: 90%; /* Limitar el ancho del texto */
   word-wrap: break-word; /* Romper palabras que no caben en una línea */
 }
-
 
 
