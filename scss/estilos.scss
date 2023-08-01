@@ -26,13 +26,11 @@ header{
     width: 50%;
     @extend .flex-center;
     flex-wrap: nowrap;
-
   }
   .logo {
     overflow: hidden;
     margin-top: 1%;
   }
-  
   nav { 
     display: inline-block;
     ul {
