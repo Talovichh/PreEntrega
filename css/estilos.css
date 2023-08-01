@@ -136,6 +136,16 @@ p {
 }
 
 .parrafo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  height: 80%;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #332F2E;
+  box-shadow: 10px 10px 10px black;
+  align-items: center;
   margin: 50px;
 }
 
@@ -144,6 +154,7 @@ p {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  width: 100%;
 }
 
 .ofertas {
