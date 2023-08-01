@@ -144,15 +144,12 @@ main {
     font-size: 1.5rem;
   }
   .parrafo {
-    height: 4rem;
-    display: flex;
-    justify-content: center;
-  align-items: center;
   margin: 50px;
   }
   .contenedordelini {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
   }
   
@@ -541,8 +538,8 @@ align-items: center;
   margin-top: 30px;
   text-align: center;
   font-size: 1.2rem;
-  max-width: 90%; /* Limitar el ancho del texto */
-  word-wrap: break-word; /* Romper palabras que no caben en una línea */
+  max-width: 90%; 
+  word-wrap: break-word; 
 }
 
 

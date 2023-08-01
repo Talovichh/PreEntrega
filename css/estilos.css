@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -137,16 +136,13 @@ p {
 }
 
 .parrafo {
-  height: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 50px;
 }
 
 .contenedordelini {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -545,8 +541,8 @@ label {
   margin-top: 30px;
   text-align: center;
   font-size: 1.2rem;
-  max-width: 90%; /* Limitar el ancho del texto */
-  word-wrap: break-word; /* Romper palabras que no caben en una línea */
+  max-width: 90%;
+  word-wrap: break-word;
 }
 
 /*# sourceMappingURL=estilos.css.map */
