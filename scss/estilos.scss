@@ -338,7 +338,9 @@ main {
   @extend .flex-center;
 width: 500px;
 }
-
+.carousel {
+  margin-top: 70px
+}
 
 @media (max-width: 500px) {
   .contenedoresinicio {
